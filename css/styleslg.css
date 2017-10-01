@@ -1,0 +1,36 @@
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+/* The "responsive" class is added to the header with JavaScript. This class makes the header look good on larger screens*/
+@media screen and (max-width: 800px) and (min-width: 600px) {
+header.responsive {position: relative;}
+header {
+	background-color: #000;
+	height: 100%;
+	line-height: 35px;
+}
+h1#mainheading {
+	color: #FFF;
+	font-size: 2em;
+	letter-spacing: .75em;
+	font-family: baskerville, bookman, serif;
+	overflow: hidden;
+	padding-left: 20px;
+	
+	
+}
+h2#mainsub {
+	color: #ff8000;
+	font-size: 1em;
+	font-weight: 900;
+	letter-spacing: .5em;
+	font-family: garamond, bookman, serif;
+	text-shadow: 0 0 2px #1155FF;
+	padding-left: 20px;
+	
+	
+	
+}
+}
